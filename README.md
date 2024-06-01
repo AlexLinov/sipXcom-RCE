@@ -18,19 +18,10 @@ pip install xmpppy
 ```
 ## Usage
 
-Run the script with the appropriate arguments. The available options are described below:
+Run the script with the appropriate arguments.
 
-### Retrieve Logs
+![image](https://github.com/AlexLinov/sipXcom-RCE/assets/74632540/e0cd422c-2e03-44b1-8a31-41db9f042ac3)
 
-Payload option 1 retrieves logs from the server. Start a netcat listener on port 80 to retrieve the logs.
-
-### Overwrite Openfire Configuration for Reverse Shell
-
-Payload option 2 overwrites the Openfire configuration to include a reverse shell. You need to provide a file to serve for the reverse shell. The script will start a Python HTTP server on the specified port (default is 8080) to serve the file. See `openfire.txt` file
-
-```bash
-python3 poc_script.py --help
-```
 ## Credits
 
 This script was inspired by an article on Packet Storm Security. You can read the full article [here](https://packetstormsecurity.com/files/171281/CoreDial-sipXcom-sipXopenfire-21.04-Remote-Command-Execution-Weak-Permissions.html).
