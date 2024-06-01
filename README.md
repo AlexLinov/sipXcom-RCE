@@ -22,7 +22,11 @@ Run the script with the appropriate arguments. The available options are describ
 
 ### Retrieve Logs
 
-This option retrieves logs from the server. Start a netcat listener on port 80 to retrieve the logs.
+Payload option 1 retrieves logs from the server. Start a netcat listener on port 80 to retrieve the logs.
+
+### Overwrite Openfire Configuration for Reverse Shell
+
+Payload option 2 overwrites the Openfire configuration to include a reverse shell. You need to provide a file to serve for the reverse shell. The script will start a Python HTTP server on the specified port (default is 8080) to serve the file. See `openfire.txt` file
 
 ```bash
 python3 poc_script.py --help
