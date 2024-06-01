@@ -27,3 +27,6 @@ This option retrieves logs from the server. Start a netcat listener on port 80 t
 ```bash
 python3 poc_script.py --help
 ```
+## Credits
+
+This script was inspired by an article on Packet Storm Security. You can read the full article [here](https://packetstormsecurity.com/files/171281/CoreDial-sipXcom-sipXopenfire-21.04-Remote-Command-Execution-Weak-Permissions.html).
