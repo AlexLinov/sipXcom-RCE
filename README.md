@@ -15,7 +15,7 @@ The script allows for two types of payloads:
 
 ```bash
 pip install xmpppy
-
+```
 ## Usage
 
 Run the script with the appropriate arguments. The available options are described below:
@@ -26,3 +26,4 @@ This option retrieves logs from the server. Start a netcat listener on port 80 t
 
 ```bash
 python3 poc_script.py --help
+```
